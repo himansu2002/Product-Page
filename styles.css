@@ -1,12 +1,4 @@
-/* Global styles */
-body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;/* Base styles */
+/* Base styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
@@ -28,7 +20,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: hidden;
 }
 
@@ -283,143 +275,4 @@ body {
 #quantity{
     background-color: #eee;
     padding: 8px;
-}
-    background-color: #f0f0f0;
-}
-
-/* Product container styles */
-.product-container {
-    display: flex;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 80%;
-    max-width: 1200px;
-}
-
-/* Image section styles */
-.image-section {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Main image styles */
-.main-image {
-    width: 100%;
-    max-width: 400px;
-    object-fit: contain;
-}
-
-/* Thumbnail section styles */
-.thumbnail-section {
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
-}
-
-/* Thumbnail styles */
-.thumbnail {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-/* Details section styles */
-.details-section {
-    flex: 1;
-    padding: 20px;
-}
-
-/* Product title styles */
-.product-title {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-/* Product vendor styles */
-.product-vendor {
-    color: #888;
-    margin-bottom: 5px;
-}
-
-/* Product price styles */
-.product-price {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Original price styles */
-.original-price {
-    color: #888;
-    text-decoration: line-through;
-}
-
-/* Color selection styles */
-.color-selection {
-    margin-top: 20px;
-}
-
-/* Color options styles */
-.color-options {
-    display: flex;
-    gap: 10px;
-}
-
-/* Color styles */
-.color {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-/* Size selection styles */
-.size-selection {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-/* Quantity button styles */
-.quantity-btn {
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border: none;
-    background-color: #f0f0f0;
-    transition: background-color 0.3s;
-}
-
-/* Quantity button hover styles */
-.quantity-btn:hover {
-    background-color: #ccc;
-}
-
-/* Quantity styles */
-#quantity {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-/* Add to cart button styles */
-.add-to-cart {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: background-color 0.3s;
-}
-
-/* Add to cart button hover styles */
-.add-to-cart:hover {
-    background-color: #0056b3;
 }
