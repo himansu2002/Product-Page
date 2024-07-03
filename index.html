@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="product-container">
+        
+        <!-- Image Section -->
+        <div class="image-section">
+            <!-- Main Product Image -->
+            <div class="mainimg-div">
+                <img id="main-image" src="" alt="Main product image" class="main-image">
+            </div>
+            <!-- Thumbnail Images -->
+            <div class="thumbnail-section" id="thumbnail-section"></div>
+        </div>
+        
+        <!-- Details Section -->
+        <div class="details-section">
+            <!-- Product Vendor and Title -->
+            <h3 id="product-vendor" class="product-vendor"></h3>
+            <h1 id="product-title" class="product-title"></h1>
+            
+            <!-- Product Prices -->
+            <p id="product-price" class="product-price"></p>
+            <p id="original-price" class="original-price"></p>
+            
+            <!-- Color Selection -->
+            <div class="color-selection">
+                <p>Choose a Color</p>
+                <div class="color-options" id="color-options"></div>
+            </div>
+            
+            <!-- Size Selection -->
+            <div class="size-selection">
+                <p>Choose a Size</p>
+                <div class="size-options" id="size-options"></div>
+            </div>
+            
+            <!-- Quantity Selection -->
+            <div class="quantity-selection">
+                <button class="quantity-btn left" id="decrease">-</button>
+                <span id="quantity">1</span>
+                <button class="quantity-btn right" id="increase">+</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <!-- Product Description -->
+            <p id="product-description" class="product-description"></p>
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
